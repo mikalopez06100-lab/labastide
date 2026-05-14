@@ -1,14 +1,25 @@
 import { useTranslations } from "next-intl";
+import { setRequestLocale } from "next-intl/server";
 import { logements } from "@/data/logements";
 import { Link } from "@/i18n/navigation";
 
-export default function HomePage() {
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  return <HomeContent />;
+}
+
+function HomeContent() {
   const t = useTranslations("home");
   const activeLogements = logements.filter((l) => l.actif);
 
   return (
     <main className="min-h-screen bg-paper">
-      {/* Hero mini */}
       <section className="relative min-h-[40vh] flex flex-col justify-end p-6 pb-8 text-white overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -42,7 +53,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Logement selector */}
       <section className="px-5 py-10 max-w-[720px] mx-auto">
         <p className="text-[10px] tracking-[0.3em] uppercase text-gold font-semibold mb-2.5 flex items-center gap-2.5">
           <span className="w-6 h-px bg-gold" />
