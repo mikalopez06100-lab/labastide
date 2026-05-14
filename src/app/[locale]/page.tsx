@@ -33,13 +33,13 @@ function HomeContent() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-navy/20" />
         <div className="relative z-10">
-          <div className="flex items-center gap-2.5 mb-4">
+          <div className="mb-4">
             <Image
               src="/images/logo-bastide.png"
               alt="Logo La Bastide"
-              width={160}
-              height={53}
-              className="h-12 w-auto brightness-0 invert"
+              width={200}
+              height={67}
+              className="h-14 w-auto rounded-lg shadow-lg"
               priority
             />
           </div>
