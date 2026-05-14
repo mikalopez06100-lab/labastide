@@ -20,6 +20,11 @@ export const logements: Logement[] = [
       it: "La terrazza è accessibile dalla camera principale. Vista mare panoramica.",
       es: "La terraza es accesible desde el dormitorio principal. Vista panorámica al mar.",
     },
+    photos: [
+      "/images/salon-vue-mer.jpg",
+      "/images/chambre-serviettes.jpg",
+      "/images/vue-mer-panorama.jpg",
+    ],
     actif: true,
   },
   {
@@ -41,6 +46,11 @@ export const logements: Logement[] = [
       it: "Accesso diretto al giardino. Ideale per una coppia.",
       es: "Acceso directo al jardín. Ideal para una pareja.",
     },
+    photos: [
+      "/images/cuisine-studio.jpg",
+      "/images/chambre-serviettes.jpg",
+      "/images/jardin.jpg",
+    ],
     actif: true,
   },
 ];

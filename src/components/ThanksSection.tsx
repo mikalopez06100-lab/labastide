@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 export default function ThanksSection() {
@@ -8,9 +9,13 @@ export default function ThanksSection() {
   return (
     <section id="thanks" className="px-5 py-16 bg-cream-warm text-center">
       <div className="flex flex-col items-center gap-5 max-w-md mx-auto">
-        <div className="flex items-center justify-center w-[60px] h-[60px] rounded-full border-2 border-gold font-serif italic text-xl text-gold">
-          B
-        </div>
+        <Image
+          src="/images/logo-bastide.png"
+          alt="Domaine de la Bastide"
+          width={140}
+          height={47}
+          className="h-14 w-auto"
+        />
 
         <h2 className="font-serif text-[clamp(1.5rem,5vw,2rem)] leading-[1.2] text-navy">
           {t("title")}

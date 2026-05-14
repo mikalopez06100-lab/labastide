@@ -10,8 +10,7 @@ export default function Hero() {
     <section
       className="relative flex flex-col justify-end min-h-[60vh] px-6 pb-8 bg-cover bg-center"
       style={{
-        backgroundImage:
-          "url('https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?w=1600&q=85')",
+        backgroundImage: "url('/images/vue-mer-panorama.jpg')",
       }}
     >
       <div className="absolute inset-0 bg-gradient-to-t from-navy/85 via-navy/40 to-transparent" />

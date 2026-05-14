@@ -23,6 +23,7 @@ export interface Logement {
   wifiPassword: string;
   equipement: string[];
   notesParticulieres?: LocalizedString;
+  photos: string[];
   actif: boolean;
 }
 

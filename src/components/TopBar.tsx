@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useLocale } from "next-intl";
 
 interface TopBarProps {
@@ -11,15 +12,17 @@ export default function TopBar({ onOpenLang }: TopBarProps) {
 
   return (
     <header
-      className="sticky top-0 z-50 flex items-center justify-between px-5 py-3 bg-paper/80 backdrop-blur-md border-b border-[var(--line)]"
+      className="sticky top-0 z-50 flex items-center justify-between px-5 py-2 bg-paper/80 backdrop-blur-md border-b border-[var(--line)]"
     >
-      <div className="flex items-center gap-2.5">
-        <div className="flex items-center justify-center w-[30px] h-[30px] rounded-md border border-gold font-serif italic text-sm text-gold">
-          B
-        </div>
-        <span className="font-serif text-[15px] uppercase tracking-[0.12em] text-navy">
-          La Bastide
-        </span>
+      <div className="flex items-center gap-2">
+        <Image
+          src="/images/logo-bastide.png"
+          alt="Domaine de la Bastide"
+          width={120}
+          height={40}
+          className="h-9 w-auto"
+          priority
+        />
       </div>
 
       <button

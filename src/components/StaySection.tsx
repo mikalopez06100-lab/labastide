@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import type { Logement, Domaine } from "@/types";
 import CopyButton from "./CopyButton";
@@ -29,6 +31,55 @@ function Card({ children }: { children: React.ReactNode }) {
   );
 }
 
+function PhotoCarousel({ photos, nom }: { photos: string[]; nom: string }) {
+  const [current, setCurrent] = useState(0);
+
+  if (photos.length === 0) return null;
+
+  return (
+    <div className="relative w-full aspect-[16/10] rounded-[14px] overflow-hidden mb-6 shadow-[var(--shadow-sm)]">
+      <Image
+        src={photos[current]}
+        alt={`${nom} - photo ${current + 1}`}
+        fill
+        className="object-cover transition-opacity duration-300"
+        sizes="(max-width: 768px) 100vw, 720px"
+        priority={current === 0}
+      />
+      {photos.length > 1 && (
+        <>
+          <button
+            onClick={() => setCurrent((p) => (p === 0 ? photos.length - 1 : p - 1))}
+            className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center text-navy shadow-md"
+            aria-label="Previous"
+          >
+            ‹
+          </button>
+          <button
+            onClick={() => setCurrent((p) => (p === photos.length - 1 ? 0 : p + 1))}
+            className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center text-navy shadow-md"
+            aria-label="Next"
+          >
+            ›
+          </button>
+          <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
+            {photos.map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrent(i)}
+                className={`w-2 h-2 rounded-full transition-colors ${
+                  i === current ? "bg-white" : "bg-white/40"
+                }`}
+                aria-label={`Photo ${i + 1}`}
+              />
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
 export default function StaySection({
   logement,
   domaine,
@@ -51,6 +102,9 @@ export default function StaySection({
         className="font-serif text-[clamp(1.6rem,5vw,2.2rem)] leading-[1.15] text-navy mb-8 [&>em]:text-gold [&>em]:not-italic"
         dangerouslySetInnerHTML={{ __html: t.raw("title") }}
       />
+
+      {/* Photo carousel */}
+      <PhotoCarousel photos={logement.photos} nom={logement.nom} />
 
       <div className="flex flex-col gap-4">
         {/* Wi-Fi */}
