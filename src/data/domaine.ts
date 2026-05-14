@@ -2,7 +2,7 @@ import type { Domaine } from "@/types";
 
 export const domaine: Domaine = {
   horaireCheckin: "15:00",
-  horaireCheckout: "11:00",
+  horaireCheckout: "10:00",
   gardienne: {
     nom: "Mme Gallis",
     telephone: "+33000000000",

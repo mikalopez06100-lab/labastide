@@ -6,6 +6,8 @@ import TopBar from "./TopBar";
 import Hero from "./Hero";
 import QuickActions from "./QuickActions";
 import StaySection from "./StaySection";
+import HouseRulesSection from "./HouseRulesSection";
+import DepartureSection from "./DepartureSection";
 import HistorySection from "./HistorySection";
 import MapSection from "./MapSection";
 import TransportSection from "./TransportSection";
@@ -32,6 +34,8 @@ export default function LivretPage({ logement, domaine, locale }: Props) {
       <Hero />
       <QuickActions gardienneTel={domaine.gardienne.telephone} />
       <StaySection logement={logement} domaine={domaine} locale={locale} />
+      <HouseRulesSection />
+      <DepartureSection />
       <HistorySection />
       <MapSection locale={locale} />
       <TransportSection />
