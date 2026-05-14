@@ -1,0 +1,138 @@
+{
+  "pwa": {
+    "title": "Añade esta guía a tu pantalla de inicio",
+    "body": "Úsala como una app real, incluso sin conexión."
+  },
+  "hero": {
+    "eyebrow": "Villefranche-sur-Mer",
+    "title": "Bienvenidos al <em>Dominio</em>",
+    "sub": "Tu guía para disfrutar al máximo de tu estancia, entre cielo y mar. Todo lo que necesitas, a un toque."
+  },
+  "weather": { "city": "Villefranche-sur-Mer" },
+  "qa": {
+    "wifi": "Wi-Fi & acceso",
+    "host": "Sra. Gallis",
+    "around": "Alrededor",
+    "urgent": "Urgencias"
+  },
+  "stay": {
+    "label": "Tu estancia",
+    "title": "Todo lo que <em>necesitas</em>",
+    "wifi": "Wi-Fi",
+    "network": "Red",
+    "password": "Contraseña",
+    "access": "Acceso & horarios",
+    "checkin": "Llegada",
+    "checkout": "Salida",
+    "code": "Código portón",
+    "host": "Tu conserje",
+    "hostDesc": "La Sra. Gallis vela por la finca y está a tu disposición durante tu estancia.",
+    "call": "Llamar",
+    "equipment": "Tu alojamiento",
+    "equipmentDesc": "Pensado para tu comodidad, está totalmente equipado:",
+    "refill": "Cápsulas café & detergente extra: en el supermercado cercano (5 min a pie)."
+  },
+  "eq": {
+    "fridge": "🧊 Frigo / congelador",
+    "oven": "🍳 Horno & microondas",
+    "coffee": "☕ Cafetera",
+    "washer": "🧺 Lavadora",
+    "ac": "❄️ Aire acondicionado",
+    "tv": "📺 TV",
+    "wifi": "📶 Wi-Fi rápido",
+    "hair": "💨 Secador",
+    "iron": "👔 Plancha",
+    "vacuum": "🧹 Aspiradora"
+  },
+  "hist": {
+    "label": "La historia",
+    "title": "Construida en <em>1890</em>",
+    "p1": "En 1890 mandé construir esta villa, encaramada sobre el mar, para hallar paz lejos de los asuntos de Estado. Entonces la Riviera era el refugio invernal de la aristocracia británica.",
+    "p2": "Seducido por la luz y la belleza del lugar, confié el diseño al arquitecto monegasco Bienvenu Gaubert. Lo convirtió en un estuche de calma rodeado de jardines en terrazas.",
+    "p3": "Hoy, La Bastide se ofrece a ti. Al cruzar su umbral entras en una historia comenzada hace más de un siglo.",
+    "role": "Primer ministro · Reina Victoria"
+  },
+  "map": {
+    "label": "A tu alrededor",
+    "title": "Por descubrir <em>cerca</em>",
+    "intro": "Playas, restaurantes, pueblos, mercados. Toca un punto en el mapa para saber más."
+  },
+  "cat": {
+    "all": "Todo",
+    "beach": "Playas",
+    "food": "Restaurantes",
+    "village": "Pueblos",
+    "market": "Mercados",
+    "shop": "Supermercados",
+    "activity": "Actividades"
+  },
+  "trans": {
+    "label": "Moverse",
+    "title": "De La Bastide <em>a todas partes</em>",
+    "uber": "Abrir la app con destino precargado",
+    "taxi": "Taxi Villefranche",
+    "train": "Tren · Estación Beaulieu",
+    "trainDesc": "800 m · Línea Marsella-Ventimiglia",
+    "bus": "Bus · Líneas 80, 81, 100",
+    "busDesc": "Parada « Octroi » a 250 m · 1,50 €",
+    "gmaps": "Google Maps",
+    "gmapsDesc": "Ruta hasta la finca",
+    "airport": "Aeropuerto Niza",
+    "airportDesc": "25 min en coche · 18 km"
+  },
+  "serv": {
+    "label": "Servicios a petición",
+    "title": "Para <em>facilitar</em> tu estancia",
+    "intro": "Pide cualquier servicio a la Sra. Gallis o por WhatsApp. Tarifas planas, sin sorpresas.",
+    "towels": "Toallas extra",
+    "towelsDesc": "2 toallas limpias, entregadas en tu alojamiento.",
+    "linen": "Ropa de cama",
+    "linenDesc": "1 juego de sábanas limpias, entregado.",
+    "cleaning": "Limpieza intermedia",
+    "cleaningDesc": "Para estancias largas, limpieza intermedia disponible.",
+    "transfer": "Traslado privado",
+    "transferDesc": "Berlina con chófer: aeropuerto, Mónaco, Cannes, estaciones.",
+    "chef": "Chef privado",
+    "chefDesc": "Cena privada en tu terraza, cocina mediterránea.",
+    "massage": "Masaje en alojamiento",
+    "massageDesc": "Profesional titulada, a la hora elegida.",
+    "onQuote": "A presupuesto",
+    "ask": "Solicitar"
+  },
+  "em": {
+    "label": "En caso de emergencia",
+    "title": "Números <em>útiles</em>",
+    "police": "Policía",
+    "fire": "Bomberos",
+    "eu": "Urgencia UE",
+    "pharm": "Farmacia de guardia",
+    "doctor": "Médico de guardia 06",
+    "hospital": "Hospital Pasteur · Niza",
+    "dentist": "Dentista de guardia",
+    "townhall": "Ayuntamiento Villefranche"
+  },
+  "thx": {
+    "title": "Feliz estancia",
+    "body": "Esta residencia ha atravesado las épocas conservando su encanto y espíritu de acogida. Te agradecemos haber elegido La Bastide y te deseamos una estancia inolvidable, suspendida entre cielo y mar."
+  },
+  "bn": {
+    "home": "Inicio",
+    "stay": "Estancia",
+    "map": "Mapa",
+    "move": "Moverse",
+    "sos": "Urgencia"
+  },
+  "lang": {
+    "title": "Idioma",
+    "sub": "Elige tu idioma preferido."
+  },
+  "copy": { "copied": "¡Copiado!" },
+  "home": {
+    "selectLabel": "Elige tu alojamiento",
+    "selectTitle": "¿Dónde te <em>alojas</em>?",
+    "selectIntro": "Selecciona tu alojamiento para acceder a tu guía de bienvenida personalizada.",
+    "floor": "Planta",
+    "capacity": "pers.",
+    "discover": "Descubrir"
+  }
+}

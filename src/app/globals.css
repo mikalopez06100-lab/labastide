@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
+@theme {
+  --color-navy: #0f1c2e;
+  --color-navy-deep: #0a141f;
+  --color-cream: #f4ede0;
+  --color-cream-warm: #ede4d3;
+  --color-gold: #b8935b;
+  --color-gold-light: #d4b884;
+  --color-paper: #fbf8f1;
+  --color-ink: #1a1a1a;
+
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Manrope", sans-serif;
+
+  --radius-card: 14px;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --line: rgba(15, 28, 46, 0.12);
+  --line-strong: rgba(15, 28, 46, 0.2);
+  --shadow: 0 20px 50px -15px rgba(15, 28, 46, 0.18);
+  --shadow-sm: 0 6px 18px -6px rgba(15, 28, 46, 0.15);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  -webkit-tap-highlight-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  line-height: 1.55;
+  overflow-x: hidden;
+  padding-bottom: calc(80px + var(--safe-bottom));
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  font-family: var(--font-sans) !important;
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  padding: 4px;
+}
+.leaflet-popup-content {
+  margin: 12px 14px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.leaflet-popup-content b {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  color: var(--color-navy);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Category filters scrollbar hide */
+.cat-filters::-webkit-scrollbar {
+  display: none;
+}
+.cat-filters {
+  scrollbar-width: none;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s ease;
+}
+.animate-slide-up {
+  animation: slideUp 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }

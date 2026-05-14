@@ -1,0 +1,142 @@
+{
+  "pwa": {
+    "title": "Ajoutez ce guide à votre écran d'accueil",
+    "body": "Accédez-y comme à une vraie app, même hors-ligne."
+  },
+  "hero": {
+    "eyebrow": "Villefranche-sur-Mer",
+    "title": "Bienvenue au <em>Domaine</em>",
+    "sub": "Voici votre guide pour profiter pleinement de votre séjour, entre ciel et mer. Tout ce qu'il faut savoir, à portée d'écran."
+  },
+  "weather": {
+    "city": "Villefranche-sur-Mer"
+  },
+  "qa": {
+    "wifi": "Wi-Fi & accès",
+    "host": "Mme Gallis",
+    "around": "Autour",
+    "urgent": "Urgences"
+  },
+  "stay": {
+    "label": "Votre séjour",
+    "title": "Tout ce dont vous avez <em>besoin</em>",
+    "wifi": "Wi-Fi",
+    "network": "Réseau",
+    "password": "Mot de passe",
+    "access": "Accès & horaires",
+    "checkin": "Arrivée",
+    "checkout": "Départ",
+    "code": "Code portail",
+    "host": "Votre gardienne",
+    "hostDesc": "Mme Gallis veille sur le domaine et reste à votre disposition pour toute question pendant votre séjour.",
+    "call": "Appeler",
+    "equipment": "Votre appartement",
+    "equipmentDesc": "Pensé pour votre confort, votre logement est entièrement équipé :",
+    "refill": "Capsules de café & dosettes de lessive supplémentaires : au supermarché voisin (à 5 min à pied)."
+  },
+  "eq": {
+    "fridge": "🧊 Frigo / congélateur",
+    "oven": "🍳 Four & micro-ondes",
+    "coffee": "☕ Machine à café",
+    "washer": "🧺 Lave-linge",
+    "ac": "❄️ Climatisation",
+    "tv": "📺 Téléviseur",
+    "wifi": "📶 Wi-Fi haut débit",
+    "hair": "💨 Sèche-cheveux",
+    "iron": "👔 Fer à repasser",
+    "vacuum": "🧹 Aspirateur"
+  },
+  "hist": {
+    "label": "L'histoire du lieu",
+    "title": "Bâtie en <em>1890</em>",
+    "p1": "En 1890, j'ai fait bâtir cette villa, perchée au-dessus de la mer, pour y trouver un peu de paix loin des affaires d'État. À cette époque, la Riviera était devenue le refuge d'hiver de toute l'aristocratie britannique.",
+    "p2": "Séduit par la lumière et la beauté des lieux, j'ai confié la conception de cette splendide maison à l'architecte monégasque Bienvenu Gaubert. Il en a fait un écrin de calme et de prestige, entouré de jardins en terrasses, avec la mer pour seul horizon.",
+    "p3": "Aujourd'hui, c'est à vous que la Bastide s'offre. En franchissant ses portes, vous entrez dans une histoire commencée il y a plus d'un siècle.",
+    "role": "Premier ministre · Reine Victoria"
+  },
+  "map": {
+    "label": "Autour de vous",
+    "title": "À découvrir <em>tout près</em>",
+    "intro": "Plages, restaurants, villages perchés, marchés. Touchez un point sur la carte pour en savoir plus."
+  },
+  "cat": {
+    "all": "Tout",
+    "beach": "Plages",
+    "food": "Restaurants",
+    "village": "Villages",
+    "market": "Marchés",
+    "shop": "Supermarchés",
+    "activity": "Activités"
+  },
+  "trans": {
+    "label": "Se déplacer",
+    "title": "De la Bastide <em>partout</em>",
+    "uber": "Ouvrir l'app avec destination préremplie",
+    "taxi": "Taxi Villefranche",
+    "train": "Train · Gare Beaulieu",
+    "trainDesc": "800 m · Ligne Marseille-Vintimille",
+    "bus": "Bus · Lignes 80, 81, 100",
+    "busDesc": "Arrêt « Octroi » à 250 m · 1,50 €",
+    "gmaps": "Google Maps",
+    "gmapsDesc": "Itinéraire jusqu'au domaine",
+    "airport": "Aéroport Nice",
+    "airportDesc": "25 min en voiture · 18 km"
+  },
+  "serv": {
+    "label": "Services à la demande",
+    "title": "Pour vous <em>simplifier</em> le séjour",
+    "intro": "Demandez n'importe lequel de ces services à Mme Gallis ou par WhatsApp. Tarifs forfaitaires, sans surprise.",
+    "towels": "Serviettes supplémentaires",
+    "towelsDesc": "2 serviettes de bain propres, livrées à votre logement.",
+    "linen": "Linge de lit",
+    "linenDesc": "1 parure de drap propre, livrée à votre logement.",
+    "cleaning": "Ménage en cours de séjour",
+    "cleaningDesc": "Pour les séjours longs, possibilité de ménage intermédiaire.",
+    "transfer": "Transfert privé",
+    "transferDesc": "Berline avec chauffeur : aéroport, Monaco, Cannes, gares.",
+    "chef": "Chef à domicile",
+    "chefDesc": "Dîner privé sur votre terrasse, cuisine méditerranéenne, produits du jour.",
+    "massage": "Massage en appartement",
+    "massageDesc": "Praticienne diplômée, à votre logement, à l'horaire de votre choix.",
+    "onQuote": "Sur devis",
+    "ask": "Demander"
+  },
+  "em": {
+    "label": "En cas d'urgence",
+    "title": "Numéros <em>utiles</em>",
+    "police": "Police",
+    "fire": "Pompiers",
+    "eu": "Urgence EU",
+    "pharm": "Pharmacie de garde",
+    "doctor": "Médecin de garde 06",
+    "hospital": "Hôpital Pasteur · Nice",
+    "dentist": "Dentiste de garde",
+    "townhall": "Mairie de Villefranche"
+  },
+  "thx": {
+    "title": "Bon séjour parmi nous",
+    "body": "Cette demeure a traversé les époques en préservant son charme et son esprit d'accueil. Nous vous remercions d'avoir choisi la Bastide et vous souhaitons un séjour aussi agréable qu'inoubliable, suspendu entre ciel et mer."
+  },
+  "bn": {
+    "home": "Accueil",
+    "stay": "Séjour",
+    "map": "Carte",
+    "move": "Bouger",
+    "sos": "Urgence"
+  },
+  "lang": {
+    "title": "Langue",
+    "sub": "Choisissez votre langue préférée pour le guide."
+  },
+  "copy": {
+    "copied": "Copié !"
+  },
+  "home": {
+    "selectLabel": "Choisissez votre logement",
+    "selectTitle": "Où <em>logez</em>-vous ?",
+    "selectIntro": "Sélectionnez votre logement pour accéder à votre livret d'accueil personnalisé.",
+    "floor": "Étage",
+    "capacity": "pers.",
+    "discover": "Découvrir"
+  }
+}
