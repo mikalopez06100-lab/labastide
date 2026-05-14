@@ -1,7 +1,11 @@
 {
   "pwa": {
-    "title": "Add this guide to your home screen",
-    "body": "Use it like a real app, even offline."
+    "title": "Install the guide",
+    "installDesc": "Access your welcome guide like a real app, even offline.",
+    "install": "Install",
+    "later": "Later",
+    "iosStep1": "Tap",
+    "iosStep2": "Then 'Add to Home Screen'"
   },
   "hero": {
     "eyebrow": "Villefranche-sur-Mer",

@@ -6,6 +6,40 @@ export const metadata: Metadata = {
   description:
     "Livret d'accueil du Domaine de la Bastide à Villefranche-sur-Mer. Toutes les informations pour votre séjour : Wi-Fi, services, transports, lieux à découvrir.",
   manifest: "/manifest.json",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png", sizes: "48x48" },
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Domaine de la Bastide",
+    title: "Domaine de la Bastide — Villefranche-sur-Mer",
+    description:
+      "Votre livret d'accueil digital : Wi-Fi, carte interactive, services, transports et bonnes adresses.",
+    url: "https://labastide.vercel.app",
+    images: [
+      {
+        url: "https://labastide.vercel.app/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Domaine de la Bastide — Villefranche-sur-Mer",
+      },
+    ],
+    locale: "fr_FR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Domaine de la Bastide — Villefranche-sur-Mer",
+    description:
+      "Votre livret d'accueil digital : Wi-Fi, carte, services & bonnes adresses.",
+    images: ["https://labastide.vercel.app/images/og-image.png"],
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",

@@ -1,7 +1,11 @@
 {
   "pwa": {
-    "title": "Añade esta guía a tu pantalla de inicio",
-    "body": "Úsala como una app real, incluso sin conexión."
+    "title": "Instalar la guía",
+    "installDesc": "Accede a tu guía como una app real, incluso sin conexión.",
+    "install": "Instalar",
+    "later": "Más tarde",
+    "iosStep1": "Pulsa",
+    "iosStep2": "Luego 'Añadir a pantalla de inicio'"
   },
   "hero": {
     "eyebrow": "Villefranche-sur-Mer",

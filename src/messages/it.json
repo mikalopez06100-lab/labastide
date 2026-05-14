@@ -1,7 +1,11 @@
 {
   "pwa": {
-    "title": "Aggiungi questa guida alla schermata Home",
-    "body": "Usala come una vera app, anche offline."
+    "title": "Installa la guida",
+    "installDesc": "Accedi alla tua guida come una vera app, anche offline.",
+    "install": "Installa",
+    "later": "Più tardi",
+    "iosStep1": "Tocca",
+    "iosStep2": "Poi 'Aggiungi a Home'"
   },
   "hero": {
     "eyebrow": "Villefranche-sur-Mer",

@@ -1,7 +1,11 @@
 {
   "pwa": {
-    "title": "Fügen Sie diesen Guide zu Ihrem Startbildschirm hinzu",
-    "body": "Nutzen Sie ihn wie eine echte App, sogar offline."
+    "title": "Guide installieren",
+    "installDesc": "Greifen Sie auf Ihren Guide wie eine echte App zu, auch offline.",
+    "install": "Installieren",
+    "later": "Später",
+    "iosStep1": "Tippen Sie auf",
+    "iosStep2": "Dann 'Zum Home-Bildschirm'"
   },
   "hero": {
     "eyebrow": "Villefranche-sur-Mer",

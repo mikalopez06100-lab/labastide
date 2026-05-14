@@ -1,7 +1,11 @@
 {
   "pwa": {
-    "title": "Ajoutez ce guide à votre écran d'accueil",
-    "body": "Accédez-y comme à une vraie app, même hors-ligne."
+    "title": "Installer le guide",
+    "installDesc": "Accédez à votre livret comme une vraie app, même hors-ligne.",
+    "install": "Installer",
+    "later": "Plus tard",
+    "iosStep1": "Appuyez sur",
+    "iosStep2": "Puis « Sur l'écran d'accueil »"
   },
   "hero": {
     "eyebrow": "Villefranche-sur-Mer",
